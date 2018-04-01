@@ -32,6 +32,7 @@ These steps are to be discussed in details in the following.
 The training set contains 34,799 images, validation set contains 4,410 images, and test set contains 12,630 images.
 The shape of all images are of 32x32x3, and there are 43 classes in total.
 One training example is shown below, whose label index is 31 (refering to: Wild animals crossing)
+
 [image1]: ./report_imgs/train_image_sample.png "training image sample"
 ![alt text][image1]
 
@@ -136,6 +137,7 @@ Training process is performed for 300 epochs, each of which trains on training s
 When training and evaluating are finished, new test images are downloaded from [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) for real world image test. 9 random images are drawn at each test from 1000 real world images.
 
 The image below show one test run:
+
 [image2]: ./report_imgs/test_new_images.png "New test images"
 ![alt text][image2]
 
